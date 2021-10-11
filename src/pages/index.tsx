@@ -41,7 +41,6 @@ const Home: NextPage = () => {
             variant={"outlined"}
             value={cep}
             onChange={(event) => setCep(event.target.value)}
-            type={"number"}
           />
           {erro && <Typography color={"error"}>{erro}</Typography>}
           <Button
